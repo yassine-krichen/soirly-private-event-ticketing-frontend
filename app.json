@@ -5,7 +5,15 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "scheme": "soirlyapp",
+    "extra": {
+      "apiUrl": "http://localhost:3000",
+      "googleClientId": "replace-with-google-client-id",
+      "eas": {
+        "projectId": "replace-with-eas-project-id"
+      }
+    },
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -16,6 +24,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.soirly.frontend",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
