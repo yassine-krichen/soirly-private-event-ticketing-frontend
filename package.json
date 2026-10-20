@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "soirly-private-event-ticketing-frontend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -36,5 +36,6 @@
     "babel-plugin-module-resolver": "^5.0.2",
     "babel-preset-expo": "^54.0.7",
     "typescript": "^5.9.3"
-  }
+  },
+  "license": "SEE LICENSE IN LICENSE"
 }
